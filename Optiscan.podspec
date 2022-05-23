@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Vijay-1528/OptiScan.git", :tag => "#{spec.version.to_s}" }
+  spec.source       = { :git => "git@github.com:Vijay-1528/OptiScan.git", :tag => "#{spec.version.to_s}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "OptiScanBarcodeReaders", "Classes/**/*.{h,m,swift}"
+  spec.source_files  = "OptiScanBarcodeReaders/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
