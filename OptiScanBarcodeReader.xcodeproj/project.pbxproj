@@ -510,6 +510,7 @@
 		4AF369DB27A7EEFE0036EE32 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF369DA27A7EEFE0036EE32 /* CoreMedia.framework */; };
 		4AF369DC27A7EF040036EE32 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF369D227A7EED00036EE32 /* AVFoundation.framework */; };
 		4AF369DE27A7EF0D0036EE32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF369DD27A7EF0D0036EE32 /* QuartzCore.framework */; };
+		689D870E283BCB9600AAEA71 /* Optiscan.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 689D870D283BCB9600AAEA71 /* Optiscan.podspec */; };
 		A82E6C822834D8E800DF7C00 /* CameraFeedManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E6C812834D8E800DF7C00 /* CameraFeedManager+Extension.swift */; };
 		A8BAB689283413F100B61EBA /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAB688283413F100B61EBA /* UIHelper.swift */; };
 		A8BAB68B2834145400B61EBA /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAB68A2834145400B61EBA /* PreviewView.swift */; };
@@ -1062,6 +1063,7 @@
 		4AF369DA27A7EEFE0036EE32 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4AF369DD27A7EF0D0036EE32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4AF369DF27A7EF320036EE32 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		689D870D283BCB9600AAEA71 /* Optiscan.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = Optiscan.podspec; sourceTree = SOURCE_ROOT; };
 		A82E6C812834D8E800DF7C00 /* CameraFeedManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraFeedManager+Extension.swift"; sourceTree = "<group>"; };
 		A8BAB688283413F100B61EBA /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		A8BAB68A2834145400B61EBA /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
@@ -1929,6 +1931,7 @@
 		4A8E16EC278C1959001B4523 /* OptiScanBarcodeReader */ = {
 			isa = PBXGroup;
 			children = (
+				689D870D283BCB9600AAEA71 /* Optiscan.podspec */,
 				A818DC752834138800B36A08 /* Helper */,
 				4A8E1707278C4704001B4523 /* SupportFiles */,
 				4A8E1706278C46E0001B4523 /* Scanner */,
@@ -2378,6 +2381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABA3D9527F57A6100EAFED6 /* yolov4-tiny_final_28_03_22.tflite in Resources */,
+				689D870E283BCB9600AAEA71 /* Optiscan.podspec in Resources */,
 				4A3B9DC727CD241C009C0CF2 /* labelmap.txt in Resources */,
 				4A01348D27FF3706002E4DB8 /* Sensifai_SuperResolution_TFLite.tflite in Resources */,
 			);
