@@ -17,15 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "OptiScanBarcodeReaders"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of OptiScanBarcodeReader."
+  spec.summary      = "A short description of OptiScanBarcodeReader need a patience."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "here the below all details are added The create a sample app with framework to the analyse"
 
   spec.homepage     = "git@github.com:Vijay-1528/OptiScan.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
