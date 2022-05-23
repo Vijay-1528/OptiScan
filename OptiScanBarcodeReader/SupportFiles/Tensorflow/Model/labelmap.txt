@@ -1,0 +1,2 @@
+qr_code
+bar_code
